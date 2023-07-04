@@ -6,7 +6,7 @@
 	<artifactId>opencart_cucumber_framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<build>
+<build>
     <pluginManagement>
         <plugins>
             <plugin>
@@ -51,7 +51,6 @@
         </plugins>
     </pluginManagement>
 </build>
-
 
 
 	<dependencies>
