@@ -23,8 +23,8 @@ import testRunner.FeaturePath;
 			 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 			},
 	
-	// dryRun=false,
-	//monochrome=true,
+	 dryRun=false,
+	monochrome=true,
 	// tags = "@sanity"	//Scenarios tagged with @sanity,
 	tags="@sanity" //Scenarios tagged with both @sanity and @regression
 	//tags = "@sanity or @regression"	 //Scenarios tagged with either @sanity or @regression
