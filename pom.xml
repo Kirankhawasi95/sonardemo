@@ -5,6 +5,10 @@
 	<groupId>opencart_cucumber_framework</groupId>
 	<artifactId>opencart_cucumber_framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 <build>
     <pluginManagement>
         <plugins>
@@ -50,7 +54,6 @@
         </plugins>
     </pluginManagement>
 </build>
-
 
 
 	<dependencies>
@@ -149,14 +152,7 @@
     <scope>provided</scope> <!-- Change 'provided' to 'compile' if needed -->
   </dependency>
   
-  <!--
-		https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
-		<dependency>
-			<groupId>org.sonarsource.scanner.maven</groupId>
-			<artifactId>sonar-maven-plugin</artifactId>
-			<version>3.9.1.2184</version>
-		</dependency>
-
+ 
 
 	</dependencies>
 
