@@ -15,7 +15,7 @@ public class DataReader {
 	public static HashMap<String, String> storeValues = new HashMap();
 
 	public static List<HashMap<String, String>> data(String filepath, String sheetName) {
-		List<HashMap<String, String>> mydata = new ArrayList<>();
+		List<HashMap<String, String>> mydata = new ArrayList<HashMap<String, String>>();
 		try {
 			FileInputStream fs = new FileInputStream(filepath);
 			XSSFWorkbook workbook = new XSSFWorkbook(fs);

@@ -7,6 +7,7 @@ import java.util.ResourceBundle;
 import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
 
 import TestBase.BaseClass;
 import io.cucumber.java.en.Then;
@@ -30,7 +31,7 @@ public class steps {
      public String br; //to store browser name
 
   
-     
+     @Test
     @When("User navigate to MyAccount menu")
     public void user_navigate_to_my_account() {
     	
